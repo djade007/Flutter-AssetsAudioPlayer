@@ -715,7 +715,7 @@ class AssetsAudioPlayer {
 
   void _onPositionReceived(dynamic argument) {
     final oldValue = _currentPosition.value;
-    int newValue = null;
+    int newValue;
     if (argument is int) {
       final int value = argument;
       newValue = value;
