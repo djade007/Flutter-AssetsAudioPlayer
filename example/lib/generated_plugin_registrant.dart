@@ -11,6 +11,7 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 // ignore: public_member_api_docs
 void registerPlugins(PluginRegistry registry) {
-  AssetsAudioPlayerWebPlugin.registerWith(registry.registrarFor(AssetsAudioPlayerWebPlugin));
+  AssetsAudioPlayerWebPlugin.registerWith(
+      registry.registrarFor(AssetsAudioPlayerWebPlugin));
   registry.registerMessageHandler();
 }
